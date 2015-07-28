@@ -1,6 +1,6 @@
 #test_div {
   background-color: blue;
-  width: $framed-width;
+  // width: $framed-width;
   height: 100px;
-  margin: 0 auto;
+  margin: 0 $framed-width;
 }

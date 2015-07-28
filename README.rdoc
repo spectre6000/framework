@@ -3,3 +3,12 @@
 CSS framework using flexboxes via SASS as part of tOP
 
 <tt>rake doc:app</tt>.
+
+Goals:
+
+- flexbox based grid
+  - incorporate and rely on phi
+- parallax margins
+- allow for all major modern gloss
+  - parallax scrolling
+  - 

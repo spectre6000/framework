@@ -1,3 +1,6 @@
+$dw: calc(100% * .16666);
 
 
-$framed-width: 100% - ($page_gutter * 2);
+//I want a page margin of 0px @400px screen width and 10% at (large) and larger screen width
+
+$framed-width: $dw;

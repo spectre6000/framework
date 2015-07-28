@@ -2969,3 +2969,1219 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/application.self-31b81fd92f6e96e1a73a7215e8a9750077a399d37d46a33b3bab1d86f06afd86.css?body=1" for ::1 at 2015-07-27 14:38:52 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 14:42:49 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-31b81fd92f6e96e1a73a7215e8a9750077a399d37d46a33b3bab1d86f06afd86.css?body=1" for ::1 at 2015-07-27 14:42:50 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 14:42:50 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 14:42:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 14:42:50 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 14:42:50 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 14:42:50 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 15:46:48 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 231ms (Views: 230.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-31b81fd92f6e96e1a73a7215e8a9750077a399d37d46a33b3bab1d86f06afd86.css?body=1" for ::1 at 2015-07-27 15:46:48 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 15:46:48 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 15:46:48 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 15:46:48 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 15:46:48 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 15:46:48 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 15:51:25 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 170ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined operation: "device-width-400px times 0.1".):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.7ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.9ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (24.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (55.7ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 15:51:48 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...width) - 400px)": expected selector or at-rule, was ") * .1;"):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.6ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (36.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 15:51:58 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...width) - 400px)": expected selector or at-rule, was ") * .1;"):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.9ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 15:52:36 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...width) - 400px)": expected selector or at-rule, was ") * .1;"):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.9ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.8ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 15:52:46 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined operation: "media-width-400px times 0.1".):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.8ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (39.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 15:52:57 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$media-width".):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.9ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (39.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 15:53:02 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined operation: "media-width-400px times 0.1".):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.9ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 15:54:25 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$dw: ((": expected ")", was "@media screen-w..."):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.9ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 15:54:32 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$dw: (": expected ")", was "@media screen-w..."):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.7ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.6ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (37.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 16:01:41 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "... - 400px) * .10": expected ")", was ";"):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.8ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (43.4ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 16:01:50 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined operation: "calc(100% - 400px) times 0.1".):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:1
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.8ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.5ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 16:02:01 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 215ms (Views: 214.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f88269db523a60893f90998a6c9c195326798cdc46de7a3a7b141ef49d900332.css?body=1" for ::1 at 2015-07-27 16:02:01 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:02:01 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:02:01 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:02:01 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:02:01 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:02:01 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:02:01 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:02:53 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 123.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:02:53 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:02:53 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:02:53 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:02:53 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:02:53 -0600
+
+
+Started GET "/assets/application.self-ed2d7bbdaee9d988564cff951c7b1950fe73910006750fc2ae59fc5edc37e335.css?body=1" for ::1 at 2015-07-27 16:02:53 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:03:01 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 87ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-37812a27dc464d27acd4cb00058c3b7d69f51c1f43c400e5e3d8323f349f606e.css?body=1" for ::1 at 2015-07-27 16:03:01 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:03:01 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:03:01 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:03:01 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:03:01 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:03:01 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:03:13 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 91ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:03:13 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:03:13 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:03:13 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:03:13 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:03:13 -0600
+
+
+Started GET "/assets/application.self-8e5e13936b53a42a1ffe974dea41f5c9a9ce72653b6b57e140d4942e9b11051b.css?body=1" for ::1 at 2015-07-27 16:03:13 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:03:13 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:03:13 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:03:13 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:03:19 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 96ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1be7eb818ae410a32806b38a82dc822ee8413cbffbde13c8861fdb1d6ad8bae4.css?body=1" for ::1 at 2015-07-27 16:03:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:03:19 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:03:19 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:03:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:03:19 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:03:19 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:03:27 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f88269db523a60893f90998a6c9c195326798cdc46de7a3a7b141ef49d900332.css?body=1" for ::1 at 2015-07-27 16:03:27 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:03:27 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:03:27 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:03:27 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:03:27 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:03:27 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:03:59 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$framed-width": expected selector or at-rule, was ": $dw2;"):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:4
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.6ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (36.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 16:04:13 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$framed-width": expected selector or at-rule, was ": $dw2;"):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:4
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.9ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (39.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 16:04:52 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$framed-width": expected selector or at-rule, was ": $dw2;"):
+    11: 
+    12:     <title>Framework</title>
+    13:     
+    14:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    15:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    16:     <%= csrf_meta_tags %>
+    17:     
+  app/assets/stylesheets/framework/layout/_grid.scss:4
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__2636048638262073064_70256367723540'
+
+
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.1ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.8ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.0ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JasonHopper/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (39.1ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 16:06:50 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 130ms (Views: 129.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0401df53058f5a5eccbcf328450b231d1679ec5b78b1b5a6ca631099ae0c0b3f.css?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:06:51 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:07:03 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b450e2405a59b9e4b50114e70c1815979bf2f423efa7c4b326475e9325d61908.css?body=1" for ::1 at 2015-07-27 16:07:03 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:07:03 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:07:03 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:07:03 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:07:03 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:07:03 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:07:07 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 87ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:07:07 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:07:07 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:07:07 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:07:07 -0600
+
+
+Started GET "/assets/application.self-cbac0d6ed57799fc141ab0d68983e4c26409feea0e420a3aa3478165ddcdde24.css?body=1" for ::1 at 2015-07-27 16:07:07 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:07:07 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:08:28 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 98ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:08:28 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:08:28 -0600
+
+
+Started GET "/assets/application.self-76299fcd305ae564f8ed389d75b83c252730e2f2a6f99088911b737ccac3ba21.css?body=1" for ::1 at 2015-07-27 16:08:28 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:08:28 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:08:28 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:08:28 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:08:33 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f88269db523a60893f90998a6c9c195326798cdc46de7a3a7b141ef49d900332.css?body=1" for ::1 at 2015-07-27 16:08:33 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:08:33 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:08:33 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:08:33 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:08:33 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:08:33 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:08:49 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-76299fcd305ae564f8ed389d75b83c252730e2f2a6f99088911b737ccac3ba21.css?body=1" for ::1 at 2015-07-27 16:08:50 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:08:50 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:08:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:08:50 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:08:50 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:08:50 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:13:23 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 108ms (Views: 106.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:13:23 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:13:23 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:13:23 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:13:23 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:13:23 -0600
+
+
+Started GET "/assets/application.self-732b5b8b1f114b4f38ae11cfd4a6d218260eb90eea1fb5c5502a11ca64ecffb8.css?body=1" for ::1 at 2015-07-27 16:13:23 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:41:19 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 406ms (Views: 404.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:41:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:41:19 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:41:19 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:41:20 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:41:20 -0600
+
+
+Started GET "/assets/application.self-22141a8fa69a5230b6deef26c2acd23a522288734a2eb54f284e85ff5428bada.css?body=1" for ::1 at 2015-07-27 16:41:20 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:41:24 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 95ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-90ca30a62dc25728109e9eef9b250d1564fa6c29593c6afefa9b9edcf5327f4a.css?body=1" for ::1 at 2015-07-27 16:41:24 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:41:24 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:41:24 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:41:24 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:41:24 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:41:24 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:41:33 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:41:33 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:41:33 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:41:33 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:41:33 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:41:33 -0600
+
+
+Started GET "/assets/application.self-7c4f1951abc8541d8016a0a2aadc11d6ca53eaebe39339bbb418bc5560bdc4c8.css?body=1" for ::1 at 2015-07-27 16:41:33 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:41:33 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:41:33 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:41:39 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 98ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:41:40 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:41:40 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:41:40 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:41:40 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:41:40 -0600
+
+
+Started GET "/assets/application.self-9ac77e7d2c546164b0795d4216db2ae02f1165288b2848d4dc69d153dbb06c70.css?body=1" for ::1 at 2015-07-27 16:41:40 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:41:52 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 99ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:41:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:41:52 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:41:52 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:41:52 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:41:52 -0600
+
+
+Started GET "/assets/application.self-f17cea3e8e131d0caa0a8f370074c59a7e5f6d31b2b2685ef8e00aea87ac84a3.css?body=1" for ::1 at 2015-07-27 16:41:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:41:52 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:41:52 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:41:58 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-90ca30a62dc25728109e9eef9b250d1564fa6c29593c6afefa9b9edcf5327f4a.css?body=1" for ::1 at 2015-07-27 16:41:58 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:41:58 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:41:58 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:41:58 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:41:58 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:41:58 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:42:01 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 94ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-16b7761e483b0fd8ab8c49be9afedfd9372508ee0c7b048c640c430a4bbc828e.css?body=1" for ::1 at 2015-07-27 16:42:01 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:42:01 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:42:01 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:42:01 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:42:01 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:42:01 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:42:14 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 295ms (Views: 294.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-732b5b8b1f114b4f38ae11cfd4a6d218260eb90eea1fb5c5502a11ca64ecffb8.css?body=1" for ::1 at 2015-07-27 16:42:15 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:42:15 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:42:15 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:42:15 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:42:15 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:42:15 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:42:21 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 95ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:42:21 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:42:21 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:42:21 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:42:21 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:42:21 -0600
+
+
+Started GET "/assets/application.self-75e94dfa8f42b83cfed4b39acf08d4ed0e819eb2abb27c65f62771bca4a7222d.css?body=1" for ::1 at 2015-07-27 16:42:21 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:42:25 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 95ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:42:25 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:42:25 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:42:25 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:42:25 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:42:25 -0600
+
+
+Started GET "/assets/application.self-8b9bd74baf8a87104d1377757825da0c4a0ef8f1fb23b529b74ffedc354499d9.css?body=1" for ::1 at 2015-07-27 16:42:25 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:42:43 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:42:44 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:42:44 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:42:44 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:42:44 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:42:44 -0600
+
+
+Started GET "/assets/application.self-732b5b8b1f114b4f38ae11cfd4a6d218260eb90eea1fb5c5502a11ca64ecffb8.css?body=1" for ::1 at 2015-07-27 16:42:44 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 16:59:57 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 448ms (Views: 447.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-27151122ef33f1ecf67a056b5ed92e8f0bba5b9972872a0ad753c6e2a66a0755.css?body=1" for ::1 at 2015-07-27 16:59:57 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 16:59:57 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 16:59:57 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 16:59:57 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 16:59:57 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 16:59:57 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 17:00:21 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-177a27cedef080c9ae8cb924c74692dba97d644c25fd4aa809a33aa6ee91f4d2.css?body=1" for ::1 at 2015-07-27 17:00:21 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 17:00:21 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 17:00:21 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 17:00:22 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 17:00:22 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 17:00:22 -0600
+
+
+Started GET "/" for ::1 at 2015-07-27 17:00:50 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 136ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5d741561f9a02491807f18fe27bfb07fe098eb482e4437b534d5b52c779f47a7.css?body=1" for ::1 at 2015-07-27 17:00:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 17:00:50 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 17:00:50 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 17:00:50 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 17:00:50 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 17:00:50 -0600
+
+
+Started GET "/" for ::1 at 2015-07-28 09:37:00 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 530ms (Views: 524.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-28 09:38:19 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 189ms (Views: 188.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-28 10:06:38 -0600
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5d741561f9a02491807f18fe27bfb07fe098eb482e4437b534d5b52c779f47a7.css?body=1" for ::1 at 2015-07-28 10:06:38 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 10:06:38 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 10:06:38 -0600
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 10:06:38 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 10:06:38 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 10:06:38 -0600
